@@ -1,0 +1,9 @@
+# libraries
+accelerate==1.13.0
+fastapi==0.135.3
+torch==2.6.0
+torchvision==0.21.0
+transformers==5.5.0
+
+# You also need to have NVIDIA driver and CUDA Toolkit installed
+
