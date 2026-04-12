@@ -4,6 +4,6 @@ fastapi==0.135.3
 torch==2.6.0
 torchvision==0.21.0
 transformers==5.5.0
-pip install llama-cpp-python==0.3.20
+llama-cpp-python==0.3.20
 
 # You also need to have NVIDIA driver and CUDA Toolkit installed
