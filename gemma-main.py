@@ -13,16 +13,6 @@ from llama_cpp import Llama
 from contextlib import asynccontextmanager
 
 
-# print("\nLoading model....")
-# llm = Llama(
-#     model_path="gemma-4-e4b-it-Q4_K_M.gguf",
-#     n_ctx=4096,         # total tokens it can handle (how much it remembers, in+out)
-#     n_gpu_layers=-1,    # moves ALL layers to your RTX 3050
-#     verbose=False       # Keeps the console clean
-# )
-
-# print("Model loaded")
-# print("\n\n\n\n")
 
 
 MAX_TOKENS = 3600
@@ -132,9 +122,9 @@ if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
 
+
 # https://huggingface.co/google/gemma-4-E4B-it
 # https://lmstudio.ai/models/google/gemma-4-e4b
 # https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/
-
 
 # uvicorn main:app --host 0.0.0.0 --port 8000 --reload
