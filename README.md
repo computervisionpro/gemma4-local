@@ -1,6 +1,6 @@
 # Gemma4 API on local system
 
-<img src="https://github.com/computervisionpro/gemma4-local/blob/main/gemma.png" alt="Gemma4" width="750" height="400">
+<img src="https://github.com/computervisionpro/gemma4-local/blob/main/gemma.png" alt="Gemma4" width="550" height="300">
 
 
 
