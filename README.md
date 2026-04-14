@@ -1,6 +1,6 @@
 # Gemma4 API on local system
 
-<img src="https://github.com/computervisionpro/Python-Depth-Est-AV2/blob/main/assets/python-depth-av2-demo.png" alt="Output" width="800" height="300">
+<img src="https://github.com/computervisionpro/gemma4-local/blob/main/gemma.png" alt="Output" width="800" height="300">
 
 
 
