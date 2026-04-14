@@ -1,18 +1,10 @@
-import requests
-import base64
-from glob import glob
+
 import sys
+import requests
+from glob import glob
 from pprint import pprint
 
 
-
-# path = sys.argv[-1]
-# files = glob(f"{path}/*")
-
-# for filename in files:
-#     print ('-----'*10)
-#     print (filename)
-#     file_b64 = base64.b64encode(open(filename, 'rb').read()).decode('utf-8')
 
 URL = 'http://0.0.0.0:8000/chat/local_llm/'
 system_prompt = "You are a polite assistant, helping people answer their questions. Keep your answer always within 200 words only."
